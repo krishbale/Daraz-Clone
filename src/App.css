@@ -16,3 +16,10 @@ a {
 .app{
     max-height: 100vh;
 }
+.section__padding{
+    padding:  4rem 6rem;
+
+}
+.section__margin {
+    margin: 4rem 6rem;
+}

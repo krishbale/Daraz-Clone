@@ -19,26 +19,17 @@ const Navbar = () => {
     <button type='submit'><img src={searchicon} alt="" /></button>
     </div>
     
-    <div className="daraz__navbar-searchbar_categories">
-    <label for="">Categories:</label>
-
-      <select name="category" id="category">
-        <option value="laptop">Laptop</option>
-        <option value="Desktop">Desktop</option>
-        <option value="Tablet">Tablet</option>
-        <option value="Smartphone">Smartphones</option>
-      </select>
-     
-    </div> 
-
+   
     </div>
     <div className='daraz__navbar-signin'>
      <img src={signinpic} alt="signinpic" />
      <p>Sign Account</p>
     </div>
     <div className='daraz__navbar-cart'>
-     <AiOutlineShoppingCart className='daraz__navbar-cart_carticon' />
-      <p>Cart</p>
+    <p>Cart</p>
+    <img src={cartpic} alt="" />
+     {/* <AiOutlineShoppingCart className='daraz__navbar-cart_carticon' /> */}
+    
     </div>
      
     </div>
