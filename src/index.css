@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  
+  --color-bg: #fff;
+  --color-bg-div: #2E2E54;
+  --color-footer :  #2E2E54;
+  --color-: #042c54;
+  --color-subtext: #7e8282;
+  --color-text: #525156;
+  --color-brand:#f85606;
+}
