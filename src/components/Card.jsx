@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({item}) => {
   return (
-    <div>Card</div>
+    <div key={item}>Card {item}</div>
   )
 }
 

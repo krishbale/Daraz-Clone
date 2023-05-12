@@ -1,0 +1,109 @@
+.daraz__navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 6rem; 
+
+}
+.daraz__navbar-logo{
+    margin: 2rem;
+}
+.daraz__navbar-logo img{
+    
+    width: 134px;
+    height: 47px;
+   
+
+}
+.daraz__navbar-searchbar{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+
+margin: 2rem 0 1rem;
+    
+    
+
+}
+.daraz__navbar-searchbar_input{
+   display: flex;
+    width: 688px;
+    height: 45px;
+    line-height: 45px;
+    background-color: var(--color-bg);
+    border-radius: 3px;
+    
+    
+}
+
+.daraz__navbar-searchbar_input input {
+    outline: none;
+background-color: var(--color-bg);
+height: 100%;
+flex: 2;
+width: 100%;
+min-height: 50px;
+font-family: var(--font-family);
+padding: 1rem;
+
+color: #A19F9E;
+    
+
+
+}
+.daraz__navbar-searchbar button{
+
+    border: none;
+    outline: none;
+    background-color: var(--color-brand);
+
+
+}
+.daraz__navbar-searchbar_categories{
+    display: flex;
+    border: none;
+    padding-left: 1rem;
+    margin-top: 1rem;
+   
+   
+
+
+}
+
+
+.daraz__navbar-signin{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+
+
+}
+.daraz__navbar-cart{
+    
+ display: flex;
+ flex-direction: row;
+ margin: 1rem;
+ text-align: center;
+ justify-content: space-between;
+
+
+}
+
+.daraz__navbar-cart {
+   
+margin: 2.5rem;
+
+   
+}
+.daraz__navbar-cart img{
+    display: inline;
+
+    /* size: 80%; */
+    /* width: 30px; */
+    height: 30px;
+}
+
+.daraz__navbar-cart p{
+ padding-right: 4px;  
+   
+}
