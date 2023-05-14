@@ -1,0 +1,43 @@
+.darazclone__flashsale{
+    margin: 4rem 6rem;
+    /* padding: 4rem 6rem; */
+    /* margin: 4rem 4rem  4rem 6rem */
+    
+  
+
+
+
+}
+
+.darazclone__flashsale-countdown{
+
+    display:flex;
+    justify-content: center;
+   
+    color: var(--color-bg);
+    /* background-color: var(--color-bg); */
+
+}
+.darazclone__flashsale-text {
+    justify-content: space-evenly;
+    display: flex;
+    color: var(--color-bg);
+    background-color:var(--color-subtext);
+    font-family: var(--font-family);
+}
+.darazclone__flashsale-countdown p {
+    background-color:var(--color-subtext);
+    font-family: var(--font-family);
+
+    
+   
+
+}
+.darazclone__flashsale-product{
+    /* margin: 4rem 6rem; */
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+}
