@@ -1,5 +1,5 @@
 import React from 'react'
-import {GiHamburgerMenu} from 'react-icons/gi'
+
 let arr = [1,2,3]
 import './../style/landing.css'
 import Card from '../components/Card'
@@ -10,21 +10,21 @@ const LandingPage = () => {
        <div className="daraz__landingpage-category_menu">
        
       
-        <p>  <GiHamburgerMenu  /> Browse Products</p>
+        <p>  Browse Products</p>
         
        </div>
        <div className="daraz__landingpage-category_items">
         <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
-        <p>Women's Fashion</p>
+        <p>Health & Beauty </p>
+        <p>Men's Fashion</p>
+        <p>Watches, Bags, Jewelery</p>
+        <p>Electronics Devices</p>
+        <p>TV & Home Appliances</p>
+        <p>Groceries & Pets</p>
+        <p>Babies & Toys</p>
+        <p>Home & LifeStyle</p>
+        <p>Sports & Outdoor</p>
+        <p>Motors,Tools & DIY</p>
        </div>
         
       </div>

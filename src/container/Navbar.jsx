@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from './../assets/logo.png';
+import logo from './../assets/Logo.png';
 import searchicon from './../assets/searchicon.png'
 import signinpic from './../assets/account.png'
 import cartpic from './../assets/cart.png'
 import './../style/navbar.css'
-import
-{AiOutlineShoppingCart} from 'react-icons/ai/';
+
+
 const Navbar = () => {
   return (
     <div className='daraz__navbar'>

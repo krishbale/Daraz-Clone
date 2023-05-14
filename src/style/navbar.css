@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0rem 6rem; 
+     background-color: #fff;
 
 }
 .daraz__navbar-logo{
@@ -15,6 +16,7 @@
 
 }
 .daraz__navbar-searchbar{
+  
     box-sizing: border-box;
 display: flex;
 flex-direction: row;
@@ -29,8 +31,9 @@ margin: 2rem 0 1rem;
     width: 688px;
     height: 45px;
     line-height: 45px;
-    background-color: var(--color-bg);
+  color:var(--color-text);
     border-radius: 3px;
+  
     
     
 }
@@ -44,10 +47,7 @@ width: 100%;
 min-height: 50px;
 font-family: var(--font-family);
 padding: 1rem;
-
-color: #A19F9E;
-    
-
+color:var(--color-footer)
 
 }
 .daraz__navbar-searchbar button{
