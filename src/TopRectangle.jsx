@@ -1,5 +1,5 @@
 import React from 'react'
-import './../style/toprectangle.css'
+import './toprectangle.css'
 const TopRectangle = () => {
   return (
     <div className='daraz__toprectangle'>

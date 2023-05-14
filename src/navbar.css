@@ -1,0 +1,125 @@
+.daraz__navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 6rem; 
+     background-color: #fff;
+
+}
+.daraz__navbar-logo{
+    margin: 2rem;
+}
+.daraz__navbar-logo img{
+    
+    width: 134px;
+    height: 47px;
+   
+
+}
+.daraz__navbar-searchbar{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    margin: 2rem 0 1rem;
+    
+    
+
+}
+
+
+.daraz__navbar-searchbar input {
+    border: none;
+    outline: none;
+    background-color: var(--color-bg);
+    height: 100%;
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    padding: 1rem;
+    color:var(--color-footer)
+
+}
+.daraz__navbar-searchbar button img{
+
+    /* width: 100%; */
+    height: 100%;
+    outline: none;
+    border: none;
+  
+    background-color: var(--color-brand);
+
+
+}
+
+.daraz__navbar-searchbar_categories{
+    display: flex;
+    border: none;
+    padding-left: 1rem;
+    margin-top: 1rem;
+   
+   
+
+
+}
+
+
+.daraz__navbar-signin{
+    margin: 1rem;   
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+
+
+}
+.daraz__navbar-signin p,.daraz__navbar-cart p
+
+ 
+   
+
+{
+    padding-left:3px ;
+
+    font-family: var(--font-family);
+    font-size: 12px;
+    align-items: center;
+}
+.daraz__navbar-cart{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+
+ 
+
+
+
+
+
+.daraz__navbar-cart img{
+
+    width: 100%;
+}
+
+
+.daraz__navbar-livebanner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+   
+
+}
+.daraz__navbar-livebanner img {
+
+    width: 100%;
+}

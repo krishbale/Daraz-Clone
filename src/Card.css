@@ -1,0 +1,17 @@
+.product{
+position: relative;
+height: 30vh;
+
+margin-top: 0;
+
+background-color: #fff;
+}
+.product > img{
+    
+        height: 99px;
+        width: 100%;
+}
+.product p{
+    padding-left: 10px;
+
+}

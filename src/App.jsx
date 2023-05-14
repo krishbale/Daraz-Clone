@@ -1,11 +1,10 @@
 
 
 import './App.css'
-import TopRectangle from './container/TopRectangle'
-import LandingPage from './container/LandingPage'
-import Slider from './container/Slider'
-import Footer from './container/Footer'
-import Navbar from './container/Navbar'
+import TopRectangle from './TopRectangle'
+import LandingPage from './LandingPage'
+
+import Navbar from './Navbar'
 
 function App() {
 
@@ -15,8 +14,7 @@ function App() {
      <TopRectangle />
      <Navbar />
      <LandingPage />
-     <Slider />
-     <Footer />
+   
 
      </div>
     </>

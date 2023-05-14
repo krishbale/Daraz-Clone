@@ -1,37 +1,50 @@
 .daraz__landingpage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    overflow: hidden;
+    height: 60vh;
+    display:grid ;
+    /* overflow: hidden; */
+    grid-template-columns: .5fr 2fr  0.8fr;
+    /* flex :1 1 1; */
     background: #fff
 
 
 }
 .daraz__landingpage-category {
-
+   
+ 
+    background-color: #fff;
+  
  
    
 }
 .daraz__landingpage-category_menu{
 
+
     background: var(--color-brand);
-    justify-content: center;
-    padding: 1px;
+    justify-content: flex-start;
     
-} 
+}   
 .daraz__landingpage-category_menu p{
+    overflow: hidden;
     font-weight: 800;
     color: var(--color-subtext);
 }
 .daraz__landingpage-category_items p{
+    display: flex;
+    flex-direction: row;
     /* font-size: px; */
     border: 1px solid #fff;
     line-height: 14px;
-    font-weight: 500;
+    
     font-family: var(--font-family);
     padding: .5rem;
-    font-size: 21px;
+    
 
 
 
 
+}
+.daraz__landingpage-image {
+    overflow:hidden ;
+    
 }

@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from './../assets/Logo.png';
-import searchicon from './../assets/searchicon.png'
-import signinpic from './../assets/account.png'
-import cartpic from './../assets/cart.png'
-import './../style/navbar.css'
+import logo from './assets/Logo.png'
+import searchicon from './assets/searchicon.png'
+import signinpic from './assets/account.png'
+import cartpic from './assets/cart.png'
+import './navbar.css'
 
 
 const Navbar = () => {
@@ -14,11 +14,9 @@ const Navbar = () => {
 
     </div>
     <div className="daraz__navbar-searchbar">
-    <div className='daraz__navbar-searchbar_input'>
     <input type="text" placeholder='Search for products...' />
-    <button type='submit'><img src={searchicon} alt="" /></button>
-    </div>
-    
+    <img src={searchicon} alt="" />
+   
    
     </div>
     <div className='daraz__navbar-signin'>
@@ -28,8 +26,11 @@ const Navbar = () => {
     <div className='daraz__navbar-cart'>
     <p>Cart</p>
     <img src={cartpic} alt="" />
-     {/* <AiOutlineShoppingCart className='daraz__navbar-cart_carticon' /> */}
     
+    
+    </div>
+    <div className="daraz__navbar-livebanner">
+     <img src="https://icms-image.slatic.net/images/ims-web/5f6edc41-ecbe-4328-8fdf-da3ad500c7c7.gif" alt="" />
     </div>
      
     </div>
