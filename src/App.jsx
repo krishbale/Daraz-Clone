@@ -6,6 +6,7 @@ import LandingPage from './LandingPage'
 
 import Navbar from './Navbar'
 import ServiceButton from './ServiceButton'
+import FlashSale from './FlashSale'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
      <Navbar />
      <LandingPage />
      <ServiceButton />
+     <FlashSale />
    
 
      </div>
