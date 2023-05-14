@@ -1,0 +1,22 @@
+.darazclone__servicebutton {
+    margin: 4rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+}
+.darazclone__servicebutton button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hideen;
+  
+  
+    background: #fff;
+    margin-right: 2rem;
+    border-radius: 20px
+}
+.darazclone__servicebutton button img{
+    height: 99px;
+        width: 100%;
+}

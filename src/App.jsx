@@ -5,6 +5,7 @@ import TopRectangle from './TopRectangle'
 import LandingPage from './LandingPage'
 
 import Navbar from './Navbar'
+import ServiceButton from './ServiceButton'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <TopRectangle />
      <Navbar />
      <LandingPage />
+     <ServiceButton />
    
 
      </div>
