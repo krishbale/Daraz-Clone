@@ -3,7 +3,7 @@
     height: 60vh;
     display:grid ;
     /* overflow: hidden; */
-    grid-template-columns: .5fr 2fr  0.8fr;
+    grid-template-columns: .5fr 2fr  0.5fr;
     /* flex :1 1 1; */
     background: #fff
 
@@ -35,7 +35,6 @@
     /* font-size: px; */
     border: 1px solid #fff;
     line-height: 14px;
-    
     font-family: var(--font-family);
     padding: .5rem;
     

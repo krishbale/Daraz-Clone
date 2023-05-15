@@ -3,7 +3,7 @@ import './flashsale.css'
 import Card from './Card'
 
 const FlashSale = () => {
-  let arr=[1,2,3,4,5,6,7,8,]
+  let arr=[1,2,3,4,5,6,7]
   return (
     <div className='darazclone__flashsale'>
      <div className='darazclone__flashsale-text'>
