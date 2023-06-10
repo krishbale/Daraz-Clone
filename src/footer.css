@@ -1,0 +1,29 @@
+.darazclone_footer{
+    margin: 0 auto;
+  
+    width: 1188px;
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-evenly;
+}
+.darazclone_footer-customercare{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.qrcode{
+    padding:.5rem;
+    margin: .5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download_gateway{
+    padding: .5rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -22,7 +22,10 @@ function App() {
      <ServiceButton />
      <FlashSale />
      </div>
+     <div className="daraz_footerback">
      <Footer />
+     </div>
+     
 
      </div>
     </>
