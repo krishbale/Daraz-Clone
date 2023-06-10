@@ -1,25 +1,38 @@
-.darazclone__servicebutton {
-    /* padding: 2rem; */
-    margin: 4rem 6rem;
-    display: flex;
-    flex-wrap: wrap;
-    height: 30px;
+.darazclone__service {
+    padding: 2rem;
+    width: 1188px;
+    height: 40px;
+   display: flex;
+    background-color: var(--color-bg);
+    /* justify-content: space-between;   */
+    margin: .2rem auto;
+    
+ 
 }
-.darazclone__servicebutton button {
-    cursor: pointer;
-    /* font-size: 16px; */
+.darazclone_serviceimage {
+
+    height: 40px;
+    flex: 1;
+   background-color: var(--color-white);
+   margin-right: 20px;
+    /* margin: 12px; */
+    border-radius: 20px;
     display: flex;
-    flex: 1 auto;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    background: #fff;
-    margin-right: 2rem;
-    border-radius: 20px
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+    
+   
+    
+
 }
-.darazclone__servicebutton button img{
-    height: 20px;
-        width: 20%;
+.darazclone_serviceimage img{
+    height: 32px;
+    width: 32px;
+    margin: 4px;
+
 }
+.darazclone_serviceimage p{
+    padding: 1rem;
+}
+

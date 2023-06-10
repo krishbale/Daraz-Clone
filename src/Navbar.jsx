@@ -14,19 +14,27 @@ const Navbar = () => {
 
     </div>
     <div className="daraz__navbar-searchbar">
-    <input type="text" placeholder='Search for products...' />
+    <input type="text" placeholder='Search in Daraz...' />
+    <div className="">
     <img src={searchicon} alt="" />
+
+    </div>
    
    
     </div>
-    <div className='daraz__navbar-signin'>
-     <img src={signinpic} alt="signinpic" />
+    {/* <div className='daraz__navbar-signin'>
+      <div className="">
+      <img src={signinpic} alt="signinpic" />
+
+      </div>
      <p>Sign Account</p>
-    </div>
+    </div> */}
     <div className='daraz__navbar-cart'>
-    <p>Cart</p>
+    {/* <p>Cart</p> */}
+    <div className="">
     <img src={cartpic} alt="" />
-    
+
+    </div>
     
     </div>
     <div className="daraz__navbar-livebanner">

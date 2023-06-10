@@ -7,6 +7,7 @@ import LandingPage from './LandingPage'
 import Navbar from './Navbar'
 import ServiceButton from './ServiceButton'
 import FlashSale from './FlashSale'
+import Footer from './Footer'
 
 function App() {
 
@@ -15,10 +16,13 @@ function App() {
      <div className="app">
      <TopRectangle />
      <Navbar />
+     <div className="daraz_landback">
+
      <LandingPage />
      <ServiceButton />
      <FlashSale />
-   
+     </div>
+     <Footer />
 
      </div>
     </>

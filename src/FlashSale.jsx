@@ -3,28 +3,35 @@ import './flashsale.css'
 import Card from './Card'
 
 const FlashSale = () => {
-  let arr=[1,2,3,4,5,6,7]
+  let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
   return (
-    <div className='darazclone__flashsale'>
-     <div className='darazclone__flashsale-text'>
-     <p>On Sale Now 
-      </p>
-      <p>Ending IN</p>
-     </div>
-    <div className='darazclone__flashsale-countdown'>
-   
-    <p>00:</p>
-    <p>00:</p>
-    <p>00:</p>
-    <p>00</p>
-    </div> 
-    <div className='darazclone__flashsale-product'>
-       {arr.map((item,index) => 
-          <Card  item = {item} key={index} />
-         )}
-    </div>
+ 
+    <>
+     <div className='darazclone__flashsale'>
+      <div className="a">
+        <p>ON Sale Now</p>
+      </div>
+      <div className="b">
+        <p>Ending In </p>
+        <p> <span className='countdown'>07</span>:<span className='countdown'>23</span>:<span className='countdown'>21</span> </p>
+      </div>
+      <div className="c">
+        <h1>Flash Sale</h1>
+      </div>
+      <div className="d">
+        <button>shop more</button>
+      </div>
 
     </div>
+     <div className='darazclone__flashsale-product'>
+     {arr.map((item,index) => 
+        <Card  item = {item} key={index} />
+       )}
+  </div>
+    </>
+
+  
+   
   )
 }
 

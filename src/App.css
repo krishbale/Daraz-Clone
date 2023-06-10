@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color: var(--color-bg);
+    background-color: var(--color-white);
 
    
 
@@ -18,10 +18,12 @@ a {
 .app{
     max-height: 100vh;
 }
-.section__padding{
-    padding:  4rem 0rem;
+.daraz_landback{
+    
+    
+    margin:0;
+    padding:0;
+    position: relative;
+    background-color: var(--color-bg);
 
-}
-.section__margin {
-    margin: 0rem 6rem;
 }

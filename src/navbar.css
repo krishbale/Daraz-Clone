@@ -1,32 +1,38 @@
 .daraz__navbar{
-    top: 0;
-    left: 0;
+ 
      display: flex;
-     background-color: #fff;
-     margin-bottom:20px ;
-     /* justify-content: space-between; */
-     
-
+     align-items: center;
+     justify-content: space-evenly;
+     width: 1188px;
+     min-width: 1188px;
+     margin: 0 auto;
+     gap: 10px;     
+    height: 75px;
 }
 .daraz__navbar-logo{
-    margin-top: 10px;
-    padding-left: 6rem;
-    padding-right: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: var(--color-bg); */
+    width: 200px;
+    
+
+   
+   
+    
   
+  
+}
+.daraz__navbar-logo img{
+    width:135px;
+   
+    
 }
 
 .daraz__navbar-searchbar{
- 
+    width: 688px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1 auto;
-    box-sizing: border-box;
-    /* margin: 3rem 1px 1rem; */
+   
     
     
 
@@ -34,24 +40,24 @@
 
 
 .daraz__navbar-searchbar input {
+    
     border: none;
     outline: none;
-    /* color: var(--color-bg); */
-    height: 100%;
-    background-color: #f5f5f5;
-    /* flex: 1 1; */
     width: 100%;
-    min-height: 50px;
+    height: 100%;
+   
+   
+  
     font-family: var(--font-family);
-    margin-bottom: 5px;
-    /* padding: 1rem; */
-    /* color:var(--color-footer) */
+
+    background-color: var(--color-bg);
+    padding:13px 19px;
+ 
 
 }
 .daraz__navbar-searchbar button img{
 
-    /* width: 100%; */
-    /* height: 100%; */
+  
     outline: none;
     border: none;
  
@@ -123,17 +129,24 @@
 
 
 .daraz__navbar-livebanner{
-    overflow: hidden;
-    display: flex;
+    
+    display: inline-block;
     flex-direction: column;
-    /* align-content: center; */
+    
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
-    right: 0;
+    
+    width: 188px;
+    height: 45px;
+    
    
 
 }
-.daraz__navbar-livebanner img {
-    width: 50%;
+.daraz__navbar-livebanner img
+
+
+{
+    width: 100%;
+    height: 100%;
+  
 }
