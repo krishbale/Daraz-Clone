@@ -3,7 +3,7 @@ import './flashsale.css'
 import Card from './Card'
 
 const FlashSale = () => {
-  let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+  let arr=[1,2,3,4,5,6,7]
   return (
  
     <>
@@ -23,11 +23,31 @@ const FlashSale = () => {
       </div>
 
     </div>
+
      <div className='darazclone__flashsale-product'>
+      
      {arr.map((item,index) => 
         <Card  item = {item} key={index} />
        )}
+       <div className="darazclone__product-title">
+      <h3>Just For You</h3>
+
+      </div>
+      {arr.map((item,index) => 
+        <Card  item = {item} key={index} />
+       )}
+         <div className="darazclone__product-title">
+      <h3>Latest Products</h3>
+
+      </div>
+      {arr.map((item,index) => 
+        <Card  item = {item} key={index} />
+       )}
+
+
   </div>
+  
+
     </>
 
   
