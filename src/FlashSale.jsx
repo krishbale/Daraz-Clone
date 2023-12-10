@@ -1,4 +1,3 @@
-import React from 'react'
 import './flashsale.css'
 import Card from './Card'
 

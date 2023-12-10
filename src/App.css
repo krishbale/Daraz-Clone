@@ -1,35 +1,28 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 body {
-    background-color: var(--color-white);
-
-   
-
+  background-color: var(--color-white);
 }
 a {
-    color: unset;
-    text-decoration: none;
-
+  color: unset;
+  text-decoration: none;
 }
-.app{
-    max-height: 100vh;
+.app {
+  max-height: 100vh;
 }
-.daraz_landback{
-    
-    
-    margin:0;
-    padding:0;
-    position: relative;
-    background-color: var(--color-bg);
-
+.daraz_landback {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: var(--color-bg);
 }
-.daraz_footerback{
-    margin: 0;
-    padding: 0;
-    position: relative;
-      background:#2e2e54;;
+.daraz_footerback {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #2e2e54;
 }

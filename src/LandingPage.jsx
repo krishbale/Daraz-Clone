@@ -1,8 +1,5 @@
-import React from 'react'
 
-let arr = [1,2,3]
 import './landing.css';
-import Card from './Card'
 const LandingPage = () => {
   return (
     <div className="daraz_landback">
@@ -15,7 +12,7 @@ const LandingPage = () => {
         <ul>
           <li>
             <a href="#">
-            <p>Women's Fashion</p>
+            <p>Womens Fashion</p>
         
             </a>
           </li>
@@ -27,7 +24,7 @@ const LandingPage = () => {
           </li>
           <li>
             <a href="#">
-            <p>Men's Fashion</p>
+            <p> Mens Fashion</p>
         <p>Watches, Bags, Jewelery</p>
        
             </a>

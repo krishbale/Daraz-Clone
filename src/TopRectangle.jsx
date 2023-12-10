@@ -1,4 +1,3 @@
-import React from 'react'
 import './toprectangle.css'
 const TopRectangle = () => {
   return (
